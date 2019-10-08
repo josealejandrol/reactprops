@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Hijo from './components/Hijo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <h1>Esta es un proyecto para contribuir en Github</h1>
       </header>
       <Hijo nombre={'José'} />
+      <Footer/>
     </div>
   );
 }
