@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hijo from './components/Hijo';
+import Hijo from './components/Hijo.js';
 
 function App() {
   return (
