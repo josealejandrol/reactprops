@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>Esta es un proyecto para contribuir en Github</h1>
       </header>
-      <Hijo nombre={'José'} />
+      <Hijo nombre={'José'} segundonombre={'Alejandro'}/>
     </div>
   );
 }

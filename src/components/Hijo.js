@@ -1,5 +1,13 @@
-const Hijo = () =>{
+import React from 'react';
+
+//Por destructurin estamos pasando props
+const Hijo = ({nombre, segundonombre}) =>{
+    
     return (
-        <p>Bienvenido {nombre}</p>
+        <div>
+             <p>Bienvenido {nombre} {segundonombre}</p>
+        </div>
     )
 }
+
+export default Hijo;
