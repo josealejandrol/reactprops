@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Esta es un proyecto para contribuir en Github</h1>
+        <h1>Estos son unas pruebas en react...</h1>
       </header>
-      <Hijo nombre={'José'} />
+      <Hijo nombre={'José es mi perra'} />
     </div>
   );
 }

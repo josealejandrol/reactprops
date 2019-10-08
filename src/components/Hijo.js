@@ -1,5 +1,8 @@
-const Hijo = () =>{
+import React from 'react';
+
+const Hijo = (props) =>{
     return (
-        <p>Bienvenido {nombre}</p>
+        <p>Bienvenido {props.nombre}</p>
     )
 }
+export default Hijo;
