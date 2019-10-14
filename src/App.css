@@ -7,7 +7,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./Images/foto.jfif');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +18,58 @@
   color: white;
 }
 
+.App-content {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-menu {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
-  color: #09d3ac;
+  color: #09d3ac ;
+  text-decoration: none;
+  margin:3px;
+  border: #09d3ac solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.App-link:hover {
+  color: #f1e42dfb;
+  border: #f1e42dfb solid;
+  border-width: 2px;
+  transition: all 1s;
+}
+.App-content1 {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-imagen{
+  height: 40vh;
+  resize: cover;
+  border-radius: 50%;
+  margin:30px;
+}
+.App-title{
+  color: #09d3ac ;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.App-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
